@@ -1,7 +1,62 @@
 What you learnt inside the class?
 
-Week1
+Week 1
 
-#1 Learnt life cycles?
-#2 Learnt team work?
-#3 Learnt something....
+Tip 1 : Be Comfortable
+#1 Learnt that Software Engineering can be made Interesting
+   Before attending the first class,i thought SE would be completely Theoretical and Boring, but it turned out to be very    Interesting and Challenging.
+   
+#2 Learnt that Failures can inspire and guide sometimes
+   'Fred Brook's' Example showcased the importance of a rigid Process and also the costs of Delaying things. It is quite surprising that his principle is still referred and applicable to the Software Industry today.
+   
+#3 Learnt viewing a problem from different perspectives
+   An activity done in the class to create a game similar to 'Candy Crush', helped me understand that User and Developer have entirely different but important thought processes, which are essential to develop any Software.   
+
+
+Week 2
+
+Tip 2 : Think Broad but Be Specific
+        Start Now, then you can change
+#1 Learnt about all the possible influences in the Life cycle of Software
+   To develop a reliable working software, one has to take care of explicit and implicit needs, tangible and intangible    methods, Manageable and Unmanageable complexity, Changable and Unchangable Environment and Major and Nonmajor          changes. 
+   
+#2 Learnt that Processes play a huge role in building a software
+   People + Processes + Tools = Product, Processes mainly mean planning every step of the product design beforehand.      Processes involve Activities, Artifacts (like this one for the course progress),Relations between the elements and     constraints in terms of time, cost, quantity, quality, etc.
+   
+#3 Learnt about some traditional Software Models
+   Process models are of 2 types - Systematic model and Agile model. Systematic implies the plan driven model where       everything is very well decided and documented beforehand. It is the perfect type for reliability while the Agile      model is the perfect type for spontaneity. Talked about another model "Systematic-Agile" where the process is only documented enough to be reused and to understand (Systematic in the back end and Agile in the front end). 
+  
+Week 3
+
+ " Can you get what you want without knowing what you want? "
+#1 Learnt the importance of knowing the Requirements for any Software to be developed
+   The user never exactly knows what he wants. So, in order to satisfy the user, the developer must try to understand     the real problem the user is facing, and elicit requirements from him. The user would always expect by default some    basic functionalities and also some added functionalities from the product. It is the duty of the Software Engineer to elicit, diffferentiate and decide on these requirements.
+   
+#2 Learnt that every person has a different world with varying perspectives
+   An activity done in the class where a student tried to explain different objects through gestures, helped to           understand that different people have different perspectives and worlds. So, as a Software Engineer in order to        develop an end user product, one must understand the user's world, and link this Informal living world with the Formal world of a Computer (Software).
+   
+#3 Learnt about Functional and Non-Functional Requirements
+   Taking the example of a Smart Phone, we tried to understand the difference between functional and non-functional
+   requirements. Functional Requirements are those which are implicit, not mentioned but expected. These are some basic    features which might be simple, but even when a produt has a plenty of non-functional requirements, the lack of one    functional requirement can tamper the product as a whole. Non-fuctional requirements help to differentiate a product from its competitors, and sometimes these can also become functional over time.
+   
+Week 4
+
+Tip: Must have a deadline for every micro-task
+#1 24 hours [timebox] is a good method to schedule tasks
+
+#2 Learnt the gist of Demings Philosophy - PLAN DO CHECK ACT and REPEAT 
+
+#3 Learnt about the basic discipline of an Agile Approach
+
+Week 5
+
+#1 Learnt how to document requirements in an effective way 
+
+#2 Started designing Use Cases for a passion project(Art Club) and tried to elicit requirements for team project by roleplay.
+
+#3 Learnt that SRS has a customer and business perspective while usecases have a developer perspective 
+
+
+
+   
+   

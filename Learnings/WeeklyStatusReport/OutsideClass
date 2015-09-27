@@ -1,8 +1,38 @@
 What you learnt outside the class?
 Be specific...
 
-Week1
+Week 1
 
-#1 I read the paper "X" and I learnt that software engineering is multi-disciplinary subject
-#2 I discussed with Krishna about design of software and we debated on different facets of software enigneering.
-Is it art, science or what?
+#1 Learnt that Interacting in the class is not so difficult as i always think
+#2 Talked to Sridhar sir about the research scope of this course - developing games to learn languages, about e-learning systems
+
+Week 2
+
+#1 Read an article under scaling software agility, which talks about why the waterfall model doesnot work in practice.       Some reasons being the assumptions underlying the model wherein there is a reasonably well-defined set of requirements which may not be truly possible, and also this does not consider the changing business behaviours overtime.
+#2 Started Thinking of ideas for the Team and Individual Projects. Our team had a meeting in the library where we            discussed among ourselves and with some of our friends from the other branch. Some of the ideas we discussed were   1.  A portal where e-waste (mostly used mobiles and computers) could be sold to the companies directly so that they can be recycled and the person also gets a fair amount of money for the device. (the popularity of OLX made us doubt this idea) (my idea)
+  2.  A portal supply books to schools and universities by buying them beforehand based on bulk orders as the bulk can attract higher discounts (Ashok a member of my team gave this idea)
+  3.  An Entertainment App like DubSmash where people can upload their picture and choose a song and a video of them  dancing to the same moves is generated and can be shared immediately on social media. (Sravya, a member of the team    gave this idea)
+  4.  An application which can get notifications, messages, mails, tweets etc in one place. Once we login to all the  accounts in this app, it can save memory and speed up your device as now, one will not need to install all of those   apps. (i got this idea while discussing with sravya)
+  5.  An application like "Share It" for Windows Phone (Suman a team member gave his idea)
+  6.  The above thought made us to think about making a plugin which helps android apps to run in windows environment.  But, we got to know that Windows 10 has got this feature and will release soon for mobiles (Project Astoria)
+After the tutorial, we understood that whatever ideas we discussed are not complex enough :( ,so started searching for new ideas again (Game Inventer like MIT scratch was one of the ideas thought then).
+
+Week 3
+
+#1 Had a meeting with sridhar sir where he suggested an idea to develop a university portal which can itself generate all the portals needed like mess portal, hostel portal, TA portal, Sports portal etc with basic (functional Requirements) and customisable non-functional requirements.
+#2 Had a team meeting and discussed about different portals possible and their needed fields.
+#3 Tried to understand a research paper on a webportal product line but ended up totally confused
+
+Week 4
+
+#1 Learnt that our Team Project is not as un-doable as we thought. Gained Confidence.
+#2 Had a meeting and designed system flow for the team project.
+#3 Tried to understand which technologies suit our project requirements the best. Had a confusion whether to take mysql and php / Javascript and xml......
+#4 Tried to understand how children of 2-5 learn skills as part of my individual project
+
+Week 5 
+
+#1 Understood the importance of documentation and also my mistake of missing deadlines
+#2 Tried making a signup form and add the data from html form to the xml file.
+#3  
+  
