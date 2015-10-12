@@ -697,7 +697,36 @@ $(document).ready(function() {
 	$('#6').append(id);
 	});
 	});
+$(document).ready(function() {	
+	$( "#check").click(function() {
+	 
+	for (var i=0;i<f.words.length;i++)
+	{
+	var m='';
+	var j=f.words[i].length;
+	if(j==2)
+	{var str=$("#1").text()+$("#2").text();}
+	if(j==3)
+	{var str=$("#1").text()+$("#2").text()+$("#3").text();}
+	if(j==4)
+	{var str=$("#1").text()+$("#2").text()+$("#3").text()+$("#4").text();}
+	if(j==5)
+	{var str=$("#1").text()+$("#2").text()+$("#3").text()+$("#4").text()+$("#5").text();}
+	if(j==6)
+	{var str=$("#1").text()+$("#2").text()+$("#3").text()+$("#4").text()+$("#5").text()+$("#6").text();}
+	for(var n=0;n<j;n++)
+	{
+	m=m+f.words[i][n];
 	}
+	var g='';
+	str=g+str;
+	if(String(str)==String(m))
+	{ $("#7").empty(); $("#7").append("Correct");break;}
+	else{ $("#7").empty();$("#7").append("Try Again");}
+	}
+	});
+	});
+}
 });
 });
 });
@@ -955,49 +984,39 @@ text-decoration:none;
        </tbody>
    </table>
 </div>
-<form>
-  Input no of letters<br>
-  <input type="text" name="firstname">
-  <br> 
-</form>
+
   <div class="row">
     <div class="col-sm-2">
-      <h3>Column 1</h3>
 	<div id="sidebar1">
 <ul id ="menu">
 </ul> 
 </div>
 </div>
 <div class="col-sm-2">
-      <h3>Column 2</h3>
 	<div id="sidebar2">
 <ul id ="menu2">
 </ul> 
 </div>
 </div>
 <div class="col-sm-2">
-      <h3>Column 3</h3>
 	<div id="sidebar3">
 <ul id ="menu3">
 </ul> 
 </div>
 </div>
 <div class="col-sm-2">
-      <h3>Column 4</h3>
 	<div id="sidebar4">
 <ul id ="menu4">
 </ul> 
 </div>
 </div>
 <div class="col-sm-2">
-      <h3>Column 5</h3>
 	<div id="sidebar5">
 <ul id ="menu5">
 </ul> 
 </div>
 </div>
 <div class="col-sm-2">
-      <h3>Column 6</h3>
 	<div id="sidebar6">
 <ul id ="menu6">
 </ul> 
@@ -1009,6 +1028,21 @@ text-decoration:none;
 <div id="2">
 </div>
 <div id="3">
+</div>
+<div id="4">
+</div>
+<div id="5">
+</div>
+<div id="6">
+</div>
+<div class="row">
+<div class="col-sm-5">
+<button id="check" >Check</button>
+</div>
+<div class="col-sm-7.6">
+<button type="button" onClick="window.location.reload();">Next</button>
+</div>
+<div id="7">
 </div>
 </div>
 </body>
