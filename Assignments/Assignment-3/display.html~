@@ -388,21 +388,8 @@ $.each(data.display, function(i, f) {
    });
 $.getJSON('p.json', function(data) {
        $.each(data.language, function(i,f) {
-	var m=Math.floor(Math.random()*f.words.length);
-	var audio;
-	var c=m+1;
-    	audio= new Audio('/home/hasitha/'+c+'.ogg');
-        $(document).ready(function() {
-   	 $('#play').click(function() {
-	 audio.play();
-    	});
-	});
-	audio.loop = false;
-	audio.onended = function(){
-	audio.stop();
-	}
 	var k,x=[];
-	
+	var m=Math.floor(Math.random()*f.words.length);
 	x=f.words[m];
 	var j=0;
 	$("sidebar1").empty();
@@ -461,253 +448,253 @@ $.getJSON('p.json', function(data) {
 	$(document).ready(function() {	
 	$( "#10").click(function() {
 	var id=$(this).text();
-	$('#a').empty();	
-	$('#a').append(id);
+	$('#1').empty();	
+	$('#1').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#11").click(function() {
 	var id=$(this).text();
-	$('#a').empty();	
-	$('#a').append(id);
+	$('#1').empty();	
+	$('#1').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#12").click(function() {
 	var id=$(this).text();
-	$('#a').empty();	
-	$('#a').append(id);
+	$('#1').empty();	
+	$('#1').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#13").click(function() {
 	var id=$(this).text();
-	$('#a').empty();	
-	$('#a').append(id);
+	$('#1').empty();	
+	$('#1').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#14").click(function() {
 	var id=$(this).text();
-	$("#a").empty();	
-	$("#a").append(id);
+	$("#demo").empty();	
+	$("#demo").append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#15").click(function() {
 	var id=$(this).text();
-	$('#a').empty();	
-	$('#a').append(id);
+	$('#1').empty();	
+	$('#1').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#20").click(function() {
 	var id=$(this).text();
-	$('#b').empty();	
-	$('#b').append(id);
+	$('#2').empty();	
+	$('#2').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#21").click(function() {
 	var id=$(this).text();
-	$('#b').empty();	
-	$('#b').append(id);
+	$('#2').empty();	
+	$('#2').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#22").click(function() {
 	var id=$(this).text();
-	$('#b').empty();	
-	$('#b').append(id);
+	$('#2').empty();	
+	$('#2').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#23").click(function() {
 	var id=$(this).text();
-	$('#b').empty();	
-	$('#b').append(id);
+	$('#2').empty();	
+	$('#2').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#24").click(function() {
 	var id=$(this).text();
-	$('#b').empty();	
-	$('#b').append(id);
+	$('#2').empty();	
+	$('#2').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#25").click(function() {
 	var id=$(this).text();
-	$('#b').empty();	
-	$('#b').append(id);
+	$('#2').empty();	
+	$('#2').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#30").click(function() {
 	var id=$(this).text();
-	$('#c').empty();	
-	$('#c').append(id);
+	$('#3').empty();	
+	$('#3').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#31").click(function() {
 	var id=$(this).text();
-	$('#c').empty();	
-	$('#c').append(id);
+	$('#3').empty();	
+	$('#3').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#32").click(function() {
 	var id=$(this).text();
-	$('#c').empty();	
-	$('#c').append(id);
+	$('#3').empty();	
+	$('#3').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#33").click(function() {
 	var id=$(this).text();
-	$('#c').empty();	
-	$('#c').append(id);
+	$('#3').empty();	
+	$('#3').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#34").click(function() {
 	var id=$(this).text();
-	$('#c').empty();	
-	$('#c').append(id);
+	$('#3').empty();	
+	$('#3').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#35").click(function() {
 	var id=$(this).text();
-	$('#c').empty();	
-	$('#c').append(id);
+	$('#3').empty();	
+	$('#3').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#40").click(function() {
 	var id=$(this).text();
-	$('#d').empty();	
-	$('#d').append(id);
+	$('#4').empty();	
+	$('#4').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#41").click(function() {
 	var id=$(this).text();
-	$('#d').empty();	
-	$('#d').append(id);
+	$('#4').empty();	
+	$('#4').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#42").click(function() {
 	var id=$(this).text();
-	$('#d').empty();	
-	$('#d').append(id);
+	$('#4').empty();	
+	$('#4').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#43").click(function() {
 	var id=$(this).text();
-	$('#d').empty();	
-	$('#d').append(id);
+	$('#4').empty();	
+	$('#4').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#44").click(function() {
 	var id=$(this).text();
-	$('#d').empty();	
-	$('#d').append(id);
+	$('#4').empty();	
+	$('#4').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#45").click(function() {
 	var id=$(this).text();
-	$('#d').empty();	
-	$('#d').append(id);
+	$('#4').empty();	
+	$('#4').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#50").click(function() {
 	var id=$(this).text();
-	$('#e').empty();	
-	$('#e').append(id);
+	$('#5').empty();	
+	$('#5').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#51").click(function() {
 	var id=$(this).text();
-	$('#e').empty();	
-	$('#e').append(id);
+	$('#5').empty();	
+	$('#5').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#52").click(function() {
 	var id=$(this).text();
-	$('#e').empty();	
-	$('#e').append(id);
+	$('#5').empty();	
+	$('#5').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#53").click(function() {
 	var id=$(this).text();
-	$('#e').empty();	
-	$('#e').append(id);
+	$('#5').empty();	
+	$('#5').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#54").click(function() {
 	var id=$(this).text();
-	$('#e').empty();	
-	$('#e').append(id);
+	$('#5').empty();	
+	$('#5').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#55").click(function() {
 	var id=$(this).text();
-	$('#e').empty();	
-	$('#e').append(id);
+	$('#5').empty();	
+	$('#5').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#60").click(function() {
 	var id=$(this).text();
-	$('#f').empty();	
-	$('#f').append(id);
+	$('#6').empty();	
+	$('#6').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#61").click(function() {
 	var id=$(this).text();
-	$('#f').empty();	
-	$('#f').append(id);
+	$('#6').empty();	
+	$('#6').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#62").click(function() {
 	var id=$(this).text();
-	$('#f').empty();	
-	$('#f').append(id);
+	$('#6').empty();	
+	$('#6').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#63").click(function() {
 	var id=$(this).text();
-	$('#f').empty();	
-	$('#f').append(id);
+	$('#6').empty();	
+	$('#6').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#64").click(function() {
 	var id=$(this).text();
-	$('#f').empty();	
-	$('#f').append(id);
+	$('#6').empty();	
+	$('#6').append(id);
 	});
 	});
 $(document).ready(function() {	
 	$( "#65").click(function() {
 	var id=$(this).text();
-	$('#f').empty();	
-	$('#f').append(id);
+	$('#6').empty();	
+	$('#6').append(id);
 	});
 	});
 $(document).ready(function() {	
@@ -718,15 +705,15 @@ $(document).ready(function() {
 	var m='';
 	var j=f.words[i].length;
 	if(j==2)
-	{var str=$("#a").text()+$("#b").text();}
+	{var str=$("#1").text()+$("#2").text();}
 	if(j==3)
-	{var str=$("#a").text()+$("#b").text()+$("#c").text();}
+	{var str=$("#1").text()+$("#2").text()+$("#3").text();}
 	if(j==4)
-	{var str=$("#a").text()+$("#b").text()+$("#c").text()+$("#d").text();}
+	{var str=$("#1").text()+$("#2").text()+$("#3").text()+$("#4").text();}
 	if(j==5)
-	{var str=$("#a").text()+$("#b").text()+$("#c").text()+$("#d").text()+$("#e").text();}
+	{var str=$("#1").text()+$("#2").text()+$("#3").text()+$("#4").text()+$("#5").text();}
 	if(j==6)
-	{var str=$("#a").text()+$("#b").text()+$("#c").text()+$("#d").text()+$("#e").text()+$("#f").text();}
+	{var str=$("#1").text()+$("#2").text()+$("#3").text()+$("#4").text()+$("#5").text()+$("#6").text();}
 	for(var n=0;n<j;n++)
 	{
 	m=m+f.words[i][n];
@@ -734,8 +721,8 @@ $(document).ready(function() {
 	var g='';
 	str=g+str;
 	if(String(str)==String(m))
-	{ $("#g").empty(); $("#g").append("Correct");break;}
-	else{ $("#g").empty();$("#g").append("Try Again");}
+	{ $("#7").empty(); $("#7").append("Correct");break;}
+	else{ $("#7").empty();$("#7").append("Try Again");}
 	}
 	});
 	});
@@ -746,7 +733,6 @@ $(document).ready(function() {
 </script>
 <style>
 body {
-
 padding:0;
 margin:0 20px;
 }
@@ -976,11 +962,6 @@ display:inline;
 padding:20px 2px 5px 20px;
 text-decoration:none;
 }
-.titl tbody td {
-	font-family: Tahoma;
-	font-size: 14px;
-	color: #FFFFFF;
-}
 </style>
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -990,8 +971,8 @@ text-decoration:none;
 </head>
 <body>  
  <div class="container">
-  <div class="jumbotron"style="background-image: url('img2.jpg')";>
-<table id= "titl" style="font-size:20px;font-color:white;">
+  <div class="jumbotron">
+<table id= "titl" style="font-size:20px">
       <tbody>
 
        </tbody>
@@ -1003,8 +984,8 @@ text-decoration:none;
        </tbody>
    </table>
 </div>
-<button id="play">Play</button>
-  <div class="row" ">
+
+  <div class="row">
     <div class="col-sm-2">
 	<div id="sidebar1">
 <ul id ="menu">
@@ -1042,28 +1023,26 @@ text-decoration:none;
 </div>
 </div> 
 </div>
-
-<div id="a" style="font-size:50px;">
+<div id="1">
 </div>
-<div id="b"style="font-size:50px;">
+<div id="2">
 </div>
-<div id="c"style="font-size:50px;">
+<div id="3">
 </div>
-<div id="d"style="font-size:50px;">
+<div id="4">
 </div>
-<div id="e"style="font-size:50px;">
+<div id="5">
 </div>
-<div id="f"style="font-size:50px;">
+<div id="6">
 </div>
 <div class="row">
 <div class="col-sm-5">
 <button id="check" >Check</button>
-
 </div>
 <div class="col-sm-7.6">
 <button type="button" onClick="window.location.reload();">Next</button>
 </div>
-<div id="g" style="font-size:50px;">
+<div id="7">
 </div>
 </div>
 </body>
